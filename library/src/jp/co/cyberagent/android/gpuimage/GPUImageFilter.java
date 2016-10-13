@@ -134,7 +134,7 @@ public class GPUImageFilter {
             try {
                 mRunOnDraw.removeFirst().run();
             } catch (Exception e) {
-                e.printStackTrace();
+                // e.printStackTrace();
             }
         }
     }
